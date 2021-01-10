@@ -4,13 +4,13 @@ A temporary scratch pad for sharing throwaway secrets
 ### Why?
 How do you share secrets (like new passwords) with users securely? There's a lot
 of tooling available for storing secrets for services (apps), but sharing
-secrets with users are still painful.
+secrets with users is still painful.
 
 Following are requirements of a similar service:
 - Users might not be technical, you shouldn't expect users to install X before
   sharing secrets with them.
 - Mail are not a secure way of sending secrets. (Although predominantly used,
-  and this tool focus on this mostly)
+  and this tool aims as being replacement to this)
 - We can setup a third party system (like Vault) and give users access to that
   once, and then we can use vault for all the secrets. Although this is a pretty
   good solution. We don't want to maintain a third party service.
